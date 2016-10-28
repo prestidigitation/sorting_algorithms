@@ -1,3 +1,5 @@
+# Doesn't seem like a great option, since it's non-adaptive (still requires quadratic time for a mostly sorted list),
+# but it has the positive of minimizing the number of swaps. Good for when the cost of swapping items is high.
 
 
 def selection_sort(array):
@@ -13,4 +15,3 @@ def selection_sort(array):
 
 test = [12, 4, 5, 6, 7, 3, 1, 15]
 print(selection_sort(test))
-
