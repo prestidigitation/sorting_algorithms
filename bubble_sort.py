@@ -24,7 +24,6 @@ def bubble_sort_optimized(a):
                 a[j], a[j + 1] = a[j + 1], a[j]
         if flag is not True:
             break
-    return a
 
 
 test = [12, 4, 5, 6, 7, 3, 1, 15]
@@ -32,7 +31,6 @@ test = bubble_sort(test)
 print(test)
 
 test2 = [12, 4, 5, 6, 7, 3, 1, 15]
-test2 = bubble_sort_optimized(test2)
 print(test2)
 
 print(sorted([1, 2, 3, 4, 6, 5, 7, 8, 9, 10, 11, 13, 12, 14, 15, 16, 17, 18, 20, 19]) \

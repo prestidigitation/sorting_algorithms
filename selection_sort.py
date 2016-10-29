@@ -10,7 +10,6 @@ def selection_sort(array):
             if array[j] < array[current_minimum]:
                 current_minimum = j
         array[i], array[current_minimum] = array[current_minimum], array[i]
-    return array
 
 
 test = [12, 4, 5, 6, 7, 3, 1, 15]
