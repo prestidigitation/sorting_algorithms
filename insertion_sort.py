@@ -7,13 +7,7 @@
 def insertion_sort(array):
     n = len(array)
     for i in range(1, n):
-        print("Loop ", i)
         j = i
         while j > 0 and array[j - 1] > array[j]:
             array[j], array[j - 1] = array[j - 1], array[j]
             j -= 1
-
-
-test = [1, 2, 3, 4, 14, 7, 3, 2, 101, 78]
-insertion_sort(test)
-print(test)
